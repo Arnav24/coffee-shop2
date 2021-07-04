@@ -1,0 +1,77 @@
+.header{
+	z-index: 1;
+	background-color: grey;
+	position: fixed;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px
+}
+.logo-div{
+	float: left;
+	text-align: center;
+	height: 100px;
+	margin: 10px;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+
+}
+.nav{
+
+	float: right;
+	height: 100%;
+}
+.nav a{
+	padding: 20px;
+	margin-top: 20px;
+	font-family: "Helvetica Neue";
+	color: white;
+	font-weight: 700;
+	font-size: 15px;
+	display: inline-block;
+}
+a:hover{
+	color: pink;
+}
+.background{
+	background-image: url(background-image.jpg);
+	height: 700px;
+	width: 100%;	
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	display: block;
+	color: white;
+}
+.product-list{
+	position: relative;
+	top:750px;
+	width: 100%
+}
+#product{
+	text-align: center;
+}
+.card{
+	width: 22%;
+	padding: 1.5%;
+	height: 300px;
+	float: left;
+	text-align: center;
+	
+}
+.card img{
+	width: 100%
+
+}
+.order{
+	width: 100%;
+	z-index: 2;
+	bottom: 10px;
+	position:relative;
+}
